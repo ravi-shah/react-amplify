@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to the Dashboard! {BUILD_ENV}
+          Welcome to the Dashboard! - {BUILD_ENV}
         </p>
         
       </header>
