@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-const BUILD_ENV = process.env.REACT_APP_API_KEY;
+const BUILD_ENV = process.env.REACT_APP_API_KEY ? process.env.REACT_APP_API_KEY : "DEVELOPMENT";
 
 function App() {
   return (
